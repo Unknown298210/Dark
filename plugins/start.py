@@ -208,7 +208,7 @@ async def start_command(client: Client, message: Message):
                         [InlineKeyboardButton("•𝙲𝚕𝚒𝚌𝚔 𝙷𝚎𝚛𝚎•", url=link)],
                         [InlineKeyboardButton('•𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝚃𝚑𝚒𝚜 𝙻𝚒𝚗𝚔•', url=TUT_VID)]
                     ]
-                await message.reply(f"𝚈𝚘𝚞𝚛 𝙰𝚍𝚜 𝚃𝚘𝚔𝚎𝚗 𝙸𝚜 𝙴𝚡𝚙𝚒𝚛𝚎𝚍, 𝚁𝚎𝚏𝚛𝚎𝚜𝚑 𝚈𝚘𝚞𝚛 𝚃𝚘𝚔𝚎𝚗 𝙰𝚗𝚍 𝚃𝚛𝚢 𝙰𝚐𝚊𝚒𝚗.\n\n𝚃𝚘𝚔𝚎𝚗 𝚃𝚒𝚖𝚎𝚘𝚞𝚝: {get_exp_time(VERIFY_EXPIRE)}\n\n𝚆𝚑𝚊𝚝 𝙸𝚜 𝚃𝚑𝚎 𝚃𝚘𝚔𝚎𝚗?\n\n𝚃𝚑𝚒𝚜 𝙸𝚜 𝙰𝚗 𝙰𝚍𝚜 𝚃𝚘𝚔𝚎𝚗. 𝙸𝚏 𝚈𝚘𝚞 𝙿𝚊𝚜𝚜 3 𝙿𝚊𝚐𝚎 𝙰𝚍, 𝚈𝚘𝚞 𝙲𝚊𝚗 𝚄𝚜𝚎 𝚃𝚑𝚎 𝙱𝚘𝚝 𝙵𝚘𝚛 {get_exp_time(VERIFY_EXPIRE)} 𝙰𝚏𝚝𝚎𝚛 𝙿𝚊𝚜𝚜𝚒𝚗𝚐 𝚃𝚑𝚎 𝙰𝚍.\n\n𝚃𝚊𝚔𝚎 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 𝙿𝚕𝚊𝚗 𝙰𝚗𝚍 𝙰𝚟𝚘𝚒𝚍 𝙰𝚍𝚍𝚜 ❣️❣️❣️.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+                await message.reply(f"To Get The content You need to Go Through a Single  Advertisement page. 📰📰\n\n𝚃𝚘𝚔𝚎𝚗 𝚃𝚒𝚖𝚎𝚘𝚞𝚝: {get_exp_time(VERIFY_EXPIRE)}\n\nWill Take only 2 mins of Your  \n\n😍.Click On How to open links For Tutorial 🧑‍🏫 {get_exp_time(VERIFY_EXPIRE)} To Avoid Taking Advertisement .\n\nOr Any queries Buy Premium ❣️Contact:- @Heavens_Owner .", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
                 return
 
     for i in range(1):
@@ -261,7 +261,7 @@ async def start_command(client: Client, message: Message):
                     [InlineKeyboardButton("•𝙲𝚕𝚒𝚌𝚔 𝙷𝚎𝚛𝚎•", url=link)],
                     [InlineKeyboardButton('•𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝚃𝚑𝚒𝚜 𝙻𝚒𝚗𝚔•', url=TUT_VID)]
                 ]
-            await message.reply(f"𝚈𝚘𝚞𝚛 𝙰𝚍𝚜 𝚃𝚘𝚔𝚎𝚗 𝙸𝚜 𝙴𝚡𝚙𝚒𝚛𝚎𝚍, 𝚁𝚎𝚏𝚛𝚎𝚜𝚑 𝚈𝚘𝚞𝚛 𝚃𝚘𝚔𝚎𝚗 𝙰𝚗𝚍 𝚃𝚛𝚢 𝙰𝚐𝚊𝚒𝚗. \n\n𝚃𝚘𝚔𝚎𝚗 𝚃𝚒𝚖𝚎𝚘𝚞𝚝: {get_exp_time(VERIFY_EXPIRE)}\n\n𝚆𝚑𝚊𝚝 𝙸𝚜 𝚃𝚑𝚎 𝚃𝚘𝚔𝚎𝚗?\n\n𝚃𝚑𝚒𝚜 𝙸𝚜 𝙰𝚗 𝙰𝚍𝚜 𝚃𝚘𝚔𝚎𝚗. 𝙸𝚏 𝚈𝚘𝚞 𝙿𝚊𝚜𝚜 3 𝙿𝚊𝚐𝚎 𝙰𝚍, 𝚈𝚘𝚞 𝙲𝚊𝚗 𝚄𝚜𝚎 𝚃𝚑𝚎 𝙱𝚘𝚝 𝙵𝚘𝚛  {get_exp_time(VERIFY_EXPIRE)} 𝙰𝚏𝚝𝚎𝚛 𝙿𝚊𝚜𝚜𝚒𝚗𝚐 𝚃𝚑𝚎 𝙰𝚍.\n\n𝚃𝚊𝚔𝚎 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 𝙿𝚕𝚊𝚗 𝙰𝚗𝚍 𝙰𝚟𝚘𝚒𝚍 𝙰𝚍𝚍𝚜 ❣️❣️❣️.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+            await message.reply(f"To Get The content You need to Go Through a Single  Advertisement page. 📰📰 \n\n𝚃𝚘𝚔𝚎𝚗 𝚃𝚒𝚖𝚎𝚘𝚞𝚝: {get_exp_time(VERIFY_EXPIRE)}\n\Will Take only 2 mins of Your\n\n😍.Click On How to open links For Tutorial 🧑‍🏫 {get_exp_time(VERIFY_EXPIRE)} To Avoid Taking Advertisement\n\nOr Any queries Buy Premium ❣️Contact:- @Heavens_Owner.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
             return
     return
     
