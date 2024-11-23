@@ -31,9 +31,9 @@ APP_ID = int(os.environ.get("APP_ID", "20071888"))
 #your api hash from https://my.telegram.org/apps
 API_HASH = os.environ.get("API_HASH", "1c4cb9d94b23282abd9ae2a87a521b53")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002278421327"))
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
-OWNER_ID = int(os.environ.get("OWNER_ID", "7840665125"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6943832981"))
 #port set to default 8080
 PORT = os.environ.get("PORT", "7993")
 #your database url mongodb only You can use mongo atlas free cloud database
@@ -46,7 +46,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #your start default command message.
 START_MSG = os.environ.get("START_MESSAGE", "𝙷𝚎𝚕𝚕𝚘 {first}\n\n𝙸 𝙲𝚊𝚗 𝚂𝚝𝚘𝚛𝚎 𝙿𝚛𝚒𝚟𝚊𝚝𝚎 𝙵𝚒𝚕𝚎𝚜 𝚒𝚗 𝚂𝚙𝚎𝚌𝚒𝚏𝚒𝚎𝚍 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝚊𝚗𝚍 𝚘𝚝𝚑𝚎𝚛 𝚞𝚜𝚎𝚛𝚜 𝚌𝚊𝚗 𝚊𝚌𝚌𝚎𝚜𝚜 𝙿𝚛𝚒𝚟𝚊𝚝𝚎 𝙵𝚒𝚕𝚎𝚜 𝙵𝚛𝚘𝚖 𝚊 𝚂𝚙𝚎𝚌𝚒𝚊𝚕 𝙻𝚒𝚗𝚔....!\n\n𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝙱𝚢 @Team_Originals 🔥")
 #your telegram tag without @
-OWNER_TAG = os.environ.get("OWNER_TAG", "Heavens_Owner")
+OWNER_TAG = os.environ.get("OWNER_TAG", "Heaven_X_Owners")
 #Time in seconds for message delete, put 0 to never delete
 TIME = int(os.environ.get("TIME", "0"))
 
@@ -107,7 +107,7 @@ FORCE_MSG = os.environ.get("FORCE_MSG", "𝚂𝚘𝚛𝚛𝚢 𝙳𝚞𝚍𝚎 �
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>None</b>")
 #protected content so that no files can be sent from the bot to anyone. recommended False
 # TRUE for yes FALSE if no
-PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "True") == "TRUE" else False
+PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "TRUE") == "TRUE" else False
 #used if you dont need buttons on database channel.
 # True for yes False if no
 DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE") == "TRUE" else False
@@ -115,7 +115,7 @@ DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE"
 
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "7350721166").split()):
+    for x in (os.environ.get("ADMINS", "7350721166 6943832981").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
