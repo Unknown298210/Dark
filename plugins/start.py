@@ -261,7 +261,7 @@ async def start_command(client: Client, message: Message):
                     [InlineKeyboardButton("•𝙲𝚕𝚒𝚌𝚔 𝙷𝚎𝚛𝚎•", url=link)],
                     [InlineKeyboardButton('•𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝚃𝚑𝚒𝚜 𝙻𝚒𝚗𝚔•', url=TUT_VID)]
                 ]
-            await message.reply(f"To Get The content You need to Go Through a Single  Advertisement page. 📰📰 \n\n𝚃𝚘𝚔𝚎𝚗 𝚃𝚒𝚖𝚎𝚘𝚞𝚝: {get_exp_time(VERIFY_EXPIRE)}\n\Will Take only 2 mins of Your\n\n😍.Click On How to open links For Tutorial 🧑‍🏫 {get_exp_time(VERIFY_EXPIRE)} To Avoid Taking Advertisement\n\nOr Any queries Buy Premium ❣️Contact:- @Heavens_Owner.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+            await message.reply(f"𝚃𝚘 𝙶𝚎𝚝 𝚃𝚑𝚎 𝙲𝚘𝚗𝚝𝚎𝚗𝚝 𝚈𝚘𝚞 𝙽𝚎𝚎𝚍 𝚃𝚘 𝙶𝚘 𝚃𝚑𝚛𝚘𝚞𝚐𝚑 𝙰 𝚂𝚒𝚗𝚐𝚕𝚎  𝙰𝚍𝚟𝚎𝚛𝚝𝚒𝚜𝚎𝚖𝚎𝚗𝚝 𝙿𝚊𝚐𝚎. 📰📰 \n\n𝚃𝚘𝚔𝚎𝚗 𝚃𝚒𝚖𝚎𝚘𝚞𝚝: {get_exp_time(VERIFY_EXPIRE)}\n\𝚆𝚒𝚕𝚕 𝚃𝚊𝚔𝚎 𝙾𝚗𝚕𝚢 2⃣ 𝙼𝚒𝚗𝚜 𝙾𝚏 𝚈𝚘𝚞𝚛.𝙲𝚕𝚒𝚌𝚔 𝙾𝚗 𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔𝚜 𝙵𝚘𝚛 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 🧑‍🏫 {get_exp_time(VERIFY_EXPIRE)} 𝚃𝚘 𝙰𝚟𝚘𝚒𝚍 𝚃𝚊𝚔𝚒𝚗𝚐 𝙰𝚍𝚟𝚎𝚛𝚝𝚒𝚜𝚎𝚖𝚎𝚗𝚝 𝙾𝚛 𝙰𝚗𝚢 𝚀𝚞𝚎𝚛𝚒𝚎𝚜 𝙰𝚋𝚘𝚞𝚝 𝙱𝚞𝚢𝚒𝚗𝚐 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 𝙼𝚎𝚖𝚋𝚎𝚛𝚜𝚑𝚒𝚙 𝙿𝚕𝚊𝚗 ❣️𝙲𝚘𝚗𝚝𝚊𝚌𝚝:- @Heaven_X_Owners.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
             return
     return
     
